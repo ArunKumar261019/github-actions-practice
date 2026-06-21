@@ -2,7 +2,6 @@
 # Flask App
 from flask import Flask, render_template
 app = Flask(__name__)
- Hi I am
 
 @app.route('/')
 def hello_world():
